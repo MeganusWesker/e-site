@@ -1,0 +1,30 @@
+.machine{
+    min-height: 70vh;
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.machine-center{
+   position: relative;
+   top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.machine-heading-div{
+    border-bottom: 1px solid rgb(182, 177, 177);
+    width: 10rem;
+    text-align: center;
+
+}
+
+@media screen  and (max-width:600px){
+    .machine-center{
+        top:2px;
+    }
+}
