@@ -1,10 +1,9 @@
 const express= require('express');
 const app = express();
-const bodyParser = require('body-parser');
 const fileUpload = require('express-fileupload');
 const path = require('path');
 const cookieParser = require('cookie-parser');
-// const cors = require('cors')
+ const cors = require('cors')
 
 const errorMidddleware = require("./middlewares/error");
 
@@ -15,24 +14,22 @@ if (process.env.NODE_ENV !== "PRODUCTION") {
   }
 
 app.use(express.json({limit:"50mb"}));
-// app.use(cors());
+ app.use(cors());
 app.use(cookieParser());
 app.use(fileUpload());
 app.use(express.urlencoded({limit:"50mb",extended:true}))
-//app.use(bodyParser.urlencoded({extended:true}))
+
 
 // Importing all routes 
 const products = require('./routes/products');
 const user = require('./routes/auth');
-const order = require('./routes/orders');
-const payment = require("./routes/paymentRoute");
+
 
 
 
 app.use('/api/v1',products);
 app.use('/api/v1',user);
-app.use('/api/v1',order);
-app.use('/api/v1',payment);
+
 
 app.use(express.static(path.join(__dirname,"../frontend/build")));
 

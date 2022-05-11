@@ -5,6 +5,10 @@ module.exports = (err,req,res,next)=>{
   err.statusCode = err.statusCode || 500;
   err.message = err.message || 'internal server error'
 
+     let error={...err};
+     error.message = err.message;
+
+
        // Wrong Mongoose object id error
        if(err.name==='CastError'){
            const message =   `Resource not found . Invalid :${err.path}`;
