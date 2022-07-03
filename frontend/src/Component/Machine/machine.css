@@ -20,7 +20,14 @@
     border-bottom: 1px solid rgb(182, 177, 177);
     width: 10rem;
     text-align: center;
+    transform: translate(-600px);
+    opacity: 0;
+    animation: golkumakad 1s linear forwards;
 
+}
+
+@keyframes golkumakad {
+    to{transform: translate(0px);opacity: 1;}
 }
 
 @media screen  and (max-width:600px){

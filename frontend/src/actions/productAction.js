@@ -196,7 +196,7 @@ export const getAllReviews = (id) => async (dispatch) => {
     } catch (error) {
       dispatch({
         type: ALL_REVIEW_FAIL,
-        payload: error.response.data.message,
+        payload: error.response.data.errMessage,
       });
     }
   };
@@ -244,7 +244,7 @@ export const sendInquiryFunc = (email,queryTextarea,countryCode,role,myImages) =
    } catch (error) {
     dispatch({
         type: SEND_INQUIRY_FAIL,
-        payload: error.response.data.message,
+        payload: error.response.data.errMessage,
       });
    }
 }

@@ -67,7 +67,7 @@ const SendInquiry = () => {
     }
 
     if(error){
-      alert.success(error);
+      alert.error(error);
       dispatch({type:CLEAR_ERRORS})
     }
 

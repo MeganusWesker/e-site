@@ -15,7 +15,7 @@ const Product = ({product}) => {
     }
 
     let links;
-     if(product.numOfReviews){
+     if(!product.isMachine){
           links=`/product/${product._id}`
     }else{
         links=`/machine/${product._id}`

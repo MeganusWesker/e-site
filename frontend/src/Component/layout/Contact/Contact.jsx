@@ -11,7 +11,7 @@ const Contact = () => {
       <div className="contact-items">
         <div className="contact-item">
           <div className="icon"><img src="https://img.icons8.com/bubbles/100/000000/phone.png"  alt="phone.png"/></div>
-          <div className="contact-info">
+          <div className="contact-info" >
             <h1>Phone</h1>
             <h2>Pranjoy Mukherjee (Operations Manager) - +91 82400 09750 </h2>
             <h2>Narendra Dutta (Sales Manager) - +91 82402 31209 </h2>

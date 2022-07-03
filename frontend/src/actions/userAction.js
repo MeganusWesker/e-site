@@ -264,7 +264,7 @@ export const deleteUser = (id) => async (dispatch) => {
     } catch (error) {
       dispatch({
         type: DELETE_USER_FAIL,
-        payload: error.response.data.message,
+        payload: error.response.data.errMessage,
       });
     }
   };
