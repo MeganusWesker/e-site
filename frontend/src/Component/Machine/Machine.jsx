@@ -1,10 +1,10 @@
 import React from 'react'
 import "./machine.css"
 import Product from '../../Home/Product'
-import pic1 from "../../images/1.png"
-import pic2 from "../../images/2.png"
-import pic3 from "../../images/3.png"
-import pic4 from "../../images/4.png"
+import pic1 from "../../images/1.avif"
+import pic2 from "../../images/2.avif"
+import pic3 from "../../images/3.avif"
+import pic4 from "../../images/4.avif"
 
 
 

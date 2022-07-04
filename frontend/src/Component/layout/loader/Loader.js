@@ -1,6 +1,6 @@
 import React from "react";
 import "./Loader.css";
-import Walk from "../../../images/Walk.gif"
+import Walk from "../../../images/walk.gif"
 
 const Loader = () => {
   return (

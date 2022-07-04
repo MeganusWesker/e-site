@@ -1,7 +1,7 @@
 import React, { Fragment} from 'react'
 import "./machineDetails.css"
 
-import pic3 from "../../images/3.png"
+import pic3 from "../../images/3.avif"
 
 import { useHistory } from "react-router-dom";
 import MetaData from '../layout/MetaData'

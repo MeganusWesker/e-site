@@ -1,6 +1,6 @@
 .banner{
      /* background-image: linear-gradient(to right, #635cd0, #2a7aad ); #3027ae */
-     background-image: url("../images/bg-1.png");
+     background-image: url("../images/bg-1.avif");
      background-position: center;
      background-repeat: no-repeat;
      background-size: cover;
@@ -131,8 +131,9 @@
 }
 
 .productCard:hover{
-    box-shadow: 0 0 5px rgba(15,15,15,0.26);
-    transform: translateY(-1vmax);
+    box-shadow: 0 0 5px rgba(15,15,15,0.26) !important;
+    transform: translateY(-1vmax) !important;
+    transition: all 1s linear !important;
 }
 
 @media screen and (max-width:600px){

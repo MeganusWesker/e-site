@@ -1,23 +1,10 @@
 import React, { Fragment} from 'react'
 import "./machineDetails.css"
 
-import pic4 from "../../images/4.png"
+import pic4 from "../../images/4.avif"
 import { useHistory } from "react-router-dom";
 import MetaData from '../layout/MetaData'
 import ReactStars from 'react-rating-stars-component'
-
-
-
-
-
-
-
-
-
-   
-   
-   
-
 
 
 

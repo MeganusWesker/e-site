@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react'
 import "./machineDetails.css"
-import pic2 from "../../images/2.png"
+import pic2 from "../../images/2.avif"
 import { useHistory } from "react-router-dom";
 import MetaData from '../layout/MetaData'
 import ReactStars from 'react-rating-stars-component'
