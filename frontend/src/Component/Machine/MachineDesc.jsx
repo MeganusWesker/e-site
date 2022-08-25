@@ -59,7 +59,9 @@ const MachineDesc = () => {
 
     <Fragment>
     <MetaData title={` MODEL :3D -- Ecommerce`}/>
+
      <div className="ProductDetails">
+   
        <div>
            <img
                  className="CarouselImage"

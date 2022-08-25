@@ -132,6 +132,8 @@
   
     .aboutSectionContainer2 {
       border-left: none;
+      
+      flex-direction: row;
     }
   
     .aboutSectionContainer2 > h2 {
